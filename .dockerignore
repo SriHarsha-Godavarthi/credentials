@@ -1,0 +1,11 @@
+
+node_modules
+.env
+build/
+eslint.config.js
+.git
+.gitignore
+docker.sh
+Dockerfile
+.babelrc
+build/src
