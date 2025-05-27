@@ -8,4 +8,3 @@ eslint.config.js
 docker.sh
 Dockerfile
 .babelrc
-build/src

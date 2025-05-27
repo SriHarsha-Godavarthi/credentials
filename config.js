@@ -1,7 +1,7 @@
 import dotenv from "dotenv"
 dotenv.config()
 const config={
-    PORT: process.env.PORT||3000,
+    PORT: process.env.PORT||8080,
     JWT_SECRET_KEY: process.env.JWT_SECRET_KEY,
     DB_HOST: process.env.DATABASE_HOST,
     DB_USER:process.env.DATABASE_USER,

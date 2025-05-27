@@ -24,6 +24,7 @@ FROM public.ecr.aws/docker/library/node:current-slim AS final-stage
 RUN useradd -m -s /bin/bash appuser
 WORKDIR /app
 COPY --from=build-stage ./app .
+COPY --from=build-stage ./app/.env .
 USER root
 RUN yarn install --production
 USER appuser

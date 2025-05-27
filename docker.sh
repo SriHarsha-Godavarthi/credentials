@@ -14,7 +14,7 @@ echo "view all available images"
 docker image ls
 
 echo "Running Docker container: $IMAGE_NAME:$VERSION on port $PORT"
-docker run -d --name ${IMAGE_NAME} -p $PORT:80 $IMAGE_NAME:$VERSION
+docker run -d --name ${IMAGE_NAME} -p $PORT:8080 $IMAGE_NAME:$VERSION
 
 echo "List all running containers"
 docker ps -a
