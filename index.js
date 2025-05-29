@@ -9,7 +9,7 @@ const app=express()
 app.use(express.json({ type: 'application/json',strict: false }));
 
 // create a new login credentials for new user
-app.post("/api/auth/register",auth.registerUser)
+app.post("/api/auth/signup",auth.registerUser)
 // GET JWT token after successfull login verification to avoid verification for all routes/API and store it in cookies
 app.post("/api/auth/login",auth.login)
 
