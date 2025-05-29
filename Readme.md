@@ -61,7 +61,7 @@ A secure, production-ready REST API built with Express and JSON Web Tokens (JWT)
 1. **Create a `.env` file:**
 
    ```bash
-  touch .env
+   touch .env
   ```
 
 2. **Configure environment variables in `.env`:**
