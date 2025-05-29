@@ -11,7 +11,7 @@
   ],
   "license": "MIT",
   "author": "Harsha Godavarthi",
-  "main": "main.js",
+  "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "build": "babel . --out-dir build --copy-files --source-maps inline --extensions js,.ts,.jsx --ignore node_modules/*,build",

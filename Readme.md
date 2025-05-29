@@ -25,12 +25,12 @@ A secure, production-ready REST API built with Express and JSON Web Tokens (JWT)
 
 ## Features
 
-✅ Secure user authentication using JWT  
-✅ User signup and login functionality  
-✅ Middleware to protect routes  
-✅ Environment variable-based configuration  
-✅ Modular, maintainable project structure  
-✅ Production-ready with best practices  
+ Secure user authentication using JWT  
+ User signup and login functionality  
+ Middleware to protect routes  
+ Environment variable-based configuration  
+ Modular, maintainable project structure  
+ Production-ready with best practices  
 
 ---
 
