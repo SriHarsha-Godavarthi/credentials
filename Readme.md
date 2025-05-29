@@ -39,7 +39,7 @@ A secure, production-ready REST API built with Express and JSON Web Tokens (JWT)
 ### Prerequisites
 
 - [Node.js](https://nodejs.org/en/) (v14 or above)
-- [MongoDB](https://www.mongodb.com/) (or another database if configured)
+- [Mysql](https://www.mysql.com/) (or another database if configured)
 
 ### Installation
 

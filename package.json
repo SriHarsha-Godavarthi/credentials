@@ -9,7 +9,7 @@
     "login",
     "authentication]"
   ],
-  "license": "ISC",
+  "license": "MIT",
   "author": "Harsha Godavarthi",
   "main": "main.js",
   "scripts": {
