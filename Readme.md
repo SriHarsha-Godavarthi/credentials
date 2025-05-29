@@ -59,21 +59,20 @@ A secure, production-ready REST API built with Express and JSON Web Tokens (JWT)
 ### Configuration
 
 1. **Create a `.env` file:**
-
-   ```bash
-   touch .env
-  ```
+    ```bash
+     touch .env
+    ```
 
 2. **Configure environment variables in `.env`:**
 
-   ```env
+```env
     PORT="port you want to expose"
     JWT_SECRET_KEY="Jwt_secret_access_key"
     DATABASE_HOST="hostname"
     DATABASE_USER="user_name"
     DATABASE_PASSWORD="account_password"
     DATABASE_NAME="database_to_access"
-   ```
+```
 
 ### Running the Server
 
